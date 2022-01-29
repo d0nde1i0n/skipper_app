@@ -9,6 +9,8 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 // yarn経由ではない場合、相対パスで示す必要がある。
 import "../script.js"
+import "jquery"
+import "../skippr.min"
 
 Rails.start()
 Turbolinks.start()
